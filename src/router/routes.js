@@ -5,14 +5,14 @@ import Error from "../Pages/Error/Error";
 import Login from "../Pages/Login/Login";
 
 export const privateRoutes = [
-  {path: '/about', component: <About/>, exact: true},
-  {path: '/error', component: <Error/>, exact: true},
-  {path: '/posts', component: <Posts/>, exact: true},
-  {path: '/posts/:id', component: <PostIdPage/>, exact: true},
-  {path: '/login', component: <Posts/>, exact: true},
-  {path: '/*', component: <Error/>, exact: true},
+  {path: 'postsApp/about', component: <About/>, exact: true},
+  {path: 'postsApp/error', component: <Error/>, exact: true},
+  {path: 'postsApp/posts', component: <Posts/>, exact: true},
+  {path: 'postsApp/posts/:id', component: <PostIdPage/>, exact: true},
+  {path: 'postsApp/login', component: <Posts/>, exact: true},
+  {path: 'postsApp/*', component: <Error/>, exact: true},
 ]
 
 export const publicRoutes = [
-  {path: '/login', component: <Login/>, exact: true},
+  {path: 'postsApp/login', component: <Login/>, exact: true},
 ];
