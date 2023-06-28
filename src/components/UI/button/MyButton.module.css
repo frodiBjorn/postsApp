@@ -1,0 +1,33 @@
+.myBtn{
+    padding: 5px 15px;
+    color: #252525;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #80004d;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.myBtn.open {
+    background-color: #d4fcd4;
+}
+.myBtn.delete {
+    background-color: #fca8a8;
+}
+.myBtn.delete:hover {
+    transform: scale(120%);
+}
+.myBtn.open:hover {
+    transform: scale(120%);
+}
+.myBtn.loginBtn:hover{
+    background:#d4fcd4;
+}
+.myBtn.logoutBtn{
+    background: crimson;
+    color: white;
+}
+.myBtn.logoutBtn:hover{
+    transform: scale(120%);
+}

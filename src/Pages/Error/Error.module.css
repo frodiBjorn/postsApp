@@ -1,0 +1,30 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.error__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.message {
+    font-size: 1.5rem;
+}
+.wave{
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    right:0;
+}
+.img{
+    background: url('../../../assets/png/sad-pepe-frog-hand-drawn.png');
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
