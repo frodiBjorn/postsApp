@@ -15,7 +15,7 @@ const AppRouter = () => {
     isAuth
       ?
       <Routes>
-        <Route path="postsApp/login" element={<Navigate to="postsApp/posts"/>} />
+        <Route path="/login" element={<Navigate to="/posts"/>} />
         {privateRoutes.map(route => {
           return (
             <Route
@@ -29,7 +29,7 @@ const AppRouter = () => {
       </Routes>
       :
       <Routes>
-        <Route path="*" element={<Navigate to="postsApp/login" replace/>} />
+        <Route path="/*" element={<Navigate to="/login" replace/>} />
         {publicRoutes.map(route => {
           return (
             <Route
