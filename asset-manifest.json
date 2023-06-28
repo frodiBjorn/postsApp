@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/postsApp/static/css/main.3fb657bf.css",
-    "main.js": "/postsApp/static/js/main.42e5904a.js",
+    "main.js": "/postsApp/static/js/main.b40612a5.js",
     "static/media/sad-pepe-frog-hand-drawn.png": "/postsApp/static/media/sad-pepe-frog-hand-drawn.d09b772dc738a321fc3f.png",
     "index.html": "/postsApp/index.html",
     "main.3fb657bf.css.map": "/postsApp/static/css/main.3fb657bf.css.map",
-    "main.42e5904a.js.map": "/postsApp/static/js/main.42e5904a.js.map"
+    "main.b40612a5.js.map": "/postsApp/static/js/main.b40612a5.js.map"
   },
   "entrypoints": [
     "static/css/main.3fb657bf.css",
-    "static/js/main.42e5904a.js"
+    "static/js/main.b40612a5.js"
   ]
 }
