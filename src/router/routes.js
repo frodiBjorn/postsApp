@@ -9,8 +9,7 @@ export const privateRoutes = [
   {path: '/error', component: <Error/>, exact: true},
   {path: '/posts', component: <Posts/>, exact: true},
   {path: '/posts/:id', component: <PostIdPage/>, exact: true},
-  {path: '/login', component: <Posts/>, exact: true},
-  {path: '/*', component: <Error/>, exact: false},
+  {path: '*', component: <Error/>, exact: false},
 ]
 
 export const publicRoutes = [
