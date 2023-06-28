@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.363f2a0f.css",
-    "main.js": "/static/js/main.42e5904a.js",
-    "static/media/sad-pepe-frog-hand-drawn.png": "/static/media/sad-pepe-frog-hand-drawn.d09b772dc738a321fc3f.png",
-    "index.html": "/index.html",
-    "main.363f2a0f.css.map": "/static/css/main.363f2a0f.css.map",
-    "main.42e5904a.js.map": "/static/js/main.42e5904a.js.map"
+    "main.css": "/postsApp/static/css/main.3fb657bf.css",
+    "main.js": "/postsApp/static/js/main.42e5904a.js",
+    "static/media/sad-pepe-frog-hand-drawn.png": "/postsApp/static/media/sad-pepe-frog-hand-drawn.d09b772dc738a321fc3f.png",
+    "index.html": "/postsApp/index.html",
+    "main.3fb657bf.css.map": "/postsApp/static/css/main.3fb657bf.css.map",
+    "main.42e5904a.js.map": "/postsApp/static/js/main.42e5904a.js.map"
   },
   "entrypoints": [
-    "static/css/main.363f2a0f.css",
+    "static/css/main.3fb657bf.css",
     "static/js/main.42e5904a.js"
   ]
 }
